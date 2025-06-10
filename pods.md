@@ -4,4 +4,4 @@
 ![pod-definition](images/pod-def.png)
 
 ### 1.Replication Controller
-![replication-controller-definition](images/replicationcontroller-def.png)
+![replication-controller-definition](images/replication-controller-def.png)
