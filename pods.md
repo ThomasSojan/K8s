@@ -8,3 +8,6 @@
 
 ### 3.Replica-Set
 ![replica-set-definition](images/replica-set-def.png)
+
+### 3.Deployment
+![deployment-definition](images/deployment-def.png)
