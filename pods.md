@@ -5,3 +5,6 @@
 
 ### 2.Replication Controller
 ![replication-controller-definition](images/replication-controller-def.png)
+
+### 3.Replica-Set
+![replica-set-definition](images/replica-set-def.png)
