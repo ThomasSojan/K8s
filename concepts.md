@@ -35,3 +35,4 @@ There were many controllers are available in k8s all these controllers are manag
 ### 4.kube scheduler
 The kube scheduler decides which pod goes where. The scheduler looks at each pods and tries to find the best node for it. The scheduler goes through two phases to identify the best node for the pod. In the first phase the scheduler tries to filter out the nodes that do not have sufficient cpu and memory requested by the pod. In the second phase scheduler rank the nodes based on the available resources after placing the pod. The node with better rank will be selected for placing the pod. This can be customized and we can write our own scheduler.
 
+### 5.kubelet
