@@ -3,5 +3,5 @@
 ### 1.Pods
 ![pod-definition](images/pod-def.png)
 
-### 1.Replication Controller
+### 2.Replication Controller
 ![replication-controller-definition](images/replication-controller-def.png)
