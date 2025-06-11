@@ -15,3 +15,6 @@
 ### 4.Service
 #### Nodeport
 ![service-definition](images/service-def.png)
+
+#### ClusterIP
+![service-definition](images/service2-def.png)
