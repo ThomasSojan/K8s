@@ -19,5 +19,8 @@ Pods in Kubernetes are ephemeral:
 #### Nodeport Service
 ![nodeport-svc](images/nodePort-svc.png)
 
+#### ClusterIP Service
+![clusterIP-svc](images/clusterIP.png)
+
  
    
