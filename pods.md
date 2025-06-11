@@ -11,3 +11,6 @@
 
 ### 3.Deployment
 ![deployment-definition](images/deployment-def.png)
+
+### 4.Service
+![service-definition](images/service-def.png)
