@@ -18,3 +18,6 @@
 
 #### ClusterIP
 ![service-definition](images/service2-def.png)
+
+#### Loadbalancer
+![service-definition](images/service3-def.png)
