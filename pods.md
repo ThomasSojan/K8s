@@ -13,4 +13,5 @@
 ![deployment-definition](images/deployment-def.png)
 
 ### 4.Service
+#### Nodeport
 ![service-definition](images/service-def.png)
