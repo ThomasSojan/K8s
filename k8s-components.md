@@ -22,5 +22,8 @@ Pods in Kubernetes are ephemeral:
 #### ClusterIP Service
 ![clusterIP-svc](images/clusterIP.png)
 
+#### Loadbalancer Service
+![loadbalancer-svc](images/loadbalancer.png)
+
  
    
