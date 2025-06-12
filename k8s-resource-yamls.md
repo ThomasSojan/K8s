@@ -21,3 +21,9 @@
 
 #### Loadbalancer
 ![service-definition](images/service3-def.png)
+
+### 5.Namespace
+![namespace-definition](images/namespace-def.png)
+
+### 3.Resource Quota
+![resource-quota-definition](images/quota-def.png)
