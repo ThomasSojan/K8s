@@ -14,5 +14,5 @@ Example
 
 ## Tolerations- PODs
 
-![tolerations](images/tolerations.png)
+![tolerations](../images/tolerations.png)
 
