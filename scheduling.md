@@ -20,3 +20,22 @@ Example
 
 ![tolerations](images/tolerations.png)
 
+### Node Selector
+
+One of the simplest method to limit a pod to run on particular node using node labels.
+
+For that first we need to label the nodes
+
+`kubectl label nodes <node-name> <key>=<value>`
+
+`kubectl label nodes node1 size=large`
+
+Then we need to update the pods with nodeselector tag.
+
+![nodeselector](images/nodeselector.png)
+
+One limitation of node selector is that it cannot be used on complex requirements i.e 
+- what if we want to select either large or medium nodes?
+- NOT small
+
+
