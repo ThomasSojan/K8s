@@ -67,4 +67,8 @@ A ResourceQuota is a namespace-level constraint that limits the total amount of 
 
 ![resource-quota](images/quota.png)
 
+### Daemonset
+### Static Pods
+### Priorty Class
+### Multiple Scheduler
 
