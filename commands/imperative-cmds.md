@@ -37,6 +37,13 @@ Another way to do this is to save the YAML definition to a file and modify
 
 You can then update the YAML file with the replicas or any other field before creating the deployment.
 
+
+`kubectl edit deployment my-deployment`
+
+With Deployments you can easily edit any field/property of the POD template. Since the pod template is a child of the deployment specification,  with every change the deployment will automatically delete and create a new pod with the new changes. So if you are asked to edit a property of a POD part of a deployment you may do that simply by running the command
+
+
+
 ## Service
 
 Create a Service named redis-service of type ClusterIP to expose pod redis on port 6379
