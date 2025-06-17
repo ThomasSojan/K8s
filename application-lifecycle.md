@@ -56,9 +56,13 @@ Imperative
 
 ![secret-imperative.png](images/secret-imperative.png)
 
-Imperative
+Declerative
 
 ![secret-declerative.png](images/secret-declerative.png)
+
+### Encode secrets
+
+![secret-encode.png](images/secret-encode.png)
 
 
 
