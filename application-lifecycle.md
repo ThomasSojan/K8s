@@ -29,3 +29,40 @@ To rollback new change
 
 ![command-args](images/cmd-arg.png)
 
+## ENV in K8s
+
+![env-pod](images/env.png)
+
+## Configmap in K8s
+
+### Create configmap
+
+Imperative
+
+![configmap-imparative](images/configmap-imparative.png)
+
+Declarative
+
+![configmap-declarative.png](images/configmap-declarative.png)
+
+### Configmaps in Pods
+![configmap-pod.png](images/configmap-pod.png)
+
+## Secrets in K8s
+
+### Create Secretes
+
+Imperative
+
+![secret-imperative.png](images/secret-imperative.png)
+
+Imperative
+
+![secret-declerative.png](images/secret-declerative.png)
+
+
+
+
+
+
+
