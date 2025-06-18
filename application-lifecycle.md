@@ -45,8 +45,9 @@ Declarative
 
 ![configmap-declarative.png](images/configmap-declarative.png)
 
-### Configmaps in Pods
-![configmap-pod.png](images/configmap-pod.png)
+### Inject configmaps to Pods
+![configmap-pod](images/configmap-pod.png)
+![configmap-pod](images/configmap-injection.png)
 
 ## Secrets in K8s
 
@@ -54,15 +55,31 @@ Declarative
 
 Imperative
 
-![secret-imperative.png](images/secret-imperative.png)
+![secret-imperative](images/secret-imperative.png)
 
 Declerative
 
-![secret-declerative.png](images/secret-declerative.png)
+![secret-declerative](images/secret-declerative.png)
 
 ### Encode secrets
 
-![secret-encode.png](images/secret-encode.png)
+![secret-encode](images/secret-encode.png)
+
+### Inject secrets to Pods
+![secret-pod](images/secret-pod.png)
+
+![secret-injection](images/secret-injection.png)
+
+![secret-vol](images/secret-vol.png)
+
+## Multi Container Pods
+
+## Init Containers
+
+## In place resize of Pods
+
+![pod resizing without restart](images/In-place-pod-resize.png)
+
 
 
 
