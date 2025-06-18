@@ -76,6 +76,12 @@ Declerative
 
 ## Init Containers
 
+## Self healing
+
+## HPA
+
+## VPA
+
 ## In place resize of Pods
 
 ![pod resizing without restart](images/In-place-pod-resize.png)
