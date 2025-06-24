@@ -6,6 +6,7 @@ metadata:
 rules:
 - apiGroups: [""]
   resources: ["pods"]
+  resourceNames: ["my-app-pod"]  #Optional: specify if needed
   verbs: ["create","update", "delete", "get", "list", "watch"]
 - apiGroups: [""]
   resources: ["configmap"]
