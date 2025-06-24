@@ -7,6 +7,12 @@ subjects:
 - kind: User
   name: dev-user     # Replace with your actual user
   apiGroup: rbac.authorization.k8s.io
+- kind: ServiceAccount
+  name: dev-app-sa
+  namespace: my-namespace
+- kind: Group
+  name: dev-team
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
   name: dev-role
