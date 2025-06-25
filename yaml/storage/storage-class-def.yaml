@@ -1,0 +1,12 @@
+# Used for dynamic provisioning (pvc will automatically create the pv)
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: aws-ebs
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: gp2                 # or gp3, io1, sc1, st1 based on your need
+  fsType: ext4
+  encrypted: "true"         # optional, use "false" if you don’t want encryption
+reclaimPolicy: Delete        # or Retain
+volumeBindingMode: WaitForFirstConsumer
