@@ -9,5 +9,5 @@ spec:
     storage: 5Gi 
     persistentVolumeReclaimPolicy: Retain
   awsElasticBlockStore:
-    volumeID: vol-0abcd1234ef567890
+    volumeID: <volume id>
     fsType: ext4
