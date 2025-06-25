@@ -7,7 +7,7 @@ spec:
     - ReadWriteOnce
   capacity:
     storage: 5Gi 
-    persistentVolumeReclaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Retain
   awsElasticBlockStore:
     volumeID: <volume id>
     fsType: ext4
