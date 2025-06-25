@@ -6,10 +6,8 @@ spec:
   accessModes:
     - ReadWriteOnce
   capacity:
-    storage: 5Gi
-    volumeMode: Filesystem  
+    storage: 5Gi 
     persistentVolumeReclaimPolicy: Retain
-    storageClassName: aws-ebs
   awsElasticBlockStore:
     volumeID: vol-0abcd1234ef567890
     fsType: ext4
