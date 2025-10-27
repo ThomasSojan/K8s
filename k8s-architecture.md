@@ -28,7 +28,7 @@ To summarize it is responsible for authenticating and validating requests, retri
 ### 3.kube control manager
 Kube controller manager manages various controllers in K8s. A controller is a process that continuously monitors the state of various components within the system and work towards bringing the whole system to the desired state.
 - Node controller is responsible for monitoring the state of nodes and take neccesary actions to keep the application running if the node is unreachable. 
-- Replication controller is responsible managing the replica sets and ensuring that the desired number of pods are available at all times within the set.
+- Replication controller is responsible managing the replica sets and ensuring that the desired number of pods are available at all times within the set and if a pod dies it will create another one.
 
 There were many controllers are available in k8s all these controllers are managed by kube control manager.
 
